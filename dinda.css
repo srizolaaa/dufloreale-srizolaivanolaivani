@@ -1,0 +1,466 @@
+.navbar {
+	background-color: rgb(237,224,216);
+	height: 80px;
+}
+
+nav a.navbar-brand:link {
+	font-family: 'League Script', cursive;
+	font-size: 70px;
+	margin-left: 110px;
+	color: black;
+	font-weight: bold;
+}
+
+nav a.navbar-brand:visited {
+	color: black;
+}
+
+.navbar-nav {
+	padding-right: 10px;
+}
+
+.navbar-nav li {
+	padding: 10px 10px;
+}
+
+.navbar-nav li a {
+	color: black;
+	font-family: 'Imprima', sans-serif;
+	font-size: 25px;
+}
+
+#background-1 {
+	background: url(images/1.jpg);
+	height: 1000px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#background-1 p {
+	text-align: center;
+	line-height: 1570px;
+	font-family: 'Amiri', serif;
+	font-size: 50px;
+}
+
+#background-2 {
+	background-color: #D6B4A7;
+	height: 1000px;
+}
+
+#background-2 p {
+	font-family: 'Amiri', serif;
+	text-align: center;
+	padding-top: 250px;
+	line-height: 100px;
+	font-size: 70px;
+}
+
+#background-2 span {
+	color: white;
+}
+
+#background-2 p {
+	font-size: 50px;
+}
+
+#footer {
+	height: 230px;
+	background-color: #AA897D;
+}
+
+#footer #judul {
+	color: black;
+	font-family: 'Inter', sans-serif;
+	font-size: 30px;
+	padding-left: 25px;
+	padding-bottom: 0px;
+	padding-top: 25px;
+	font-weight: bold;
+}
+
+#footer a:visited {
+	color: black;
+}
+
+#footer svg {
+	width: 50px;
+	height: 50px;
+	margin: 10px 15px;
+}
+
+#footer #footer-1 {
+	text-align: right;
+	padding-right: 25px;
+	padding-bottom: 0px;
+	padding-top: 25px;
+	font-family: 'Inter', sans-serif;
+	color: white;
+}
+
+#footer-1 #alamat {
+	color: black;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+#copcop1 {
+	height: 50px;
+	text-align: center;
+	background-color: #EFE4DF;
+}
+
+#copcop1 p {
+	padding-top: 15px;
+}
+
+/* ---- Bagian Products ---*/
+
+#background-2-1 {
+	background-color: white;
+	height: 1000px;
+}
+
+#background-2-1 img {
+	width: 1200px;
+	height: 1100px;
+	display: block;
+	margin-top: -50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#background-2-1 p {
+	text-align: center;
+	position: relative;
+	font-size: 50px;
+	bottom: 620px;
+	font-family: 'Amiri', serif;
+}
+
+#background-3-1 {
+	height: 1200px;
+	background-color: rgb(214,180,167);
+}
+
+#background-3-1 h1 {
+	font-family: 'Aref Ruqaa', serif;
+	padding: 30px 30px;
+}
+
+#background-3-1 p {
+	background-color: #FFFFFF;
+	color: #AA897D;
+	width: 400px;
+	height: 82px;
+	line-height: 82px;
+	text-align: center;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	font-family: 'Antonio', sans-serif;
+	font-size: 40px;
+}
+
+/*-- Bagian Gambar our products --*/
+
+.gambar {
+	width: 400px;
+	height: 400px;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+	box-shadow: 6px 6px 6px rgb(163,138,128);
+
+}
+
+.tulisan {
+	box-shadow: 6px 5px 6px rgb(163,138,128);
+	position: relative;
+}
+
+.gambar-1 {
+	margin-left: 150px;
+	margin-top: 45px;
+}
+
+.gambar-2 {
+	margin-top: 45px;
+}
+
+/* -- Detail Page --*/
+
+.background-detail {
+	width: 1440px;
+	height: 1300px;
+	background-color: rgb(239,228,223);
+}
+
+.gambar-detail {
+	width: 700px;
+	height: 600px;
+	border-radius: 30px 30px;
+	margin-top: 160px;
+	box-shadow: 1px 4px 6px grey;
+}
+
+.gambar-detail1 {
+	width: 157px;
+	height: 108px;
+	box-shadow: 1px 4px 6px grey;
+	border-radius: 10px 10px;
+	margin-top: 50px;
+}
+
+.deskripsi-kiri {
+	float: left;
+	font-family: 'Amiri', serif;
+	margin-left: 100px;
+}
+
+.deskripsi-kiri h1 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.deskripsi-kiri p {
+	font-size: 35px;
+	margin-left: 50px;
+}
+
+.deskripsi-kiri ul li {
+	font-size: 27px;
+}
+
+.kanan {
+	float: right;
+	font-family: 'Amiri', serif;
+	margin-top: 70px;
+	margin-bottom: 20px;
+	margin-right: 50px;
+}
+
+.kanan ul li {
+	font-size: 21px;
+}
+
+.kanan button {
+	float: right;
+	font-size: 27px;
+	color: black;
+	margin-top: 42px;
+	padding: 8px 50px;
+	border-radius: 10px 10px;
+	background-color: rgb(226,135,135);
+	border-style: none;
+}
+
+/* -- ORDER PAGE --*/
+
+.orderImages {
+	width: 600px;
+	height: 600px;
+	border-radius: 35px 35px;
+}
+
+#input1 {
+	width: 600px;
+	height: 70px;
+	background-color: #D6B4A7;
+	border: none;
+}
+
+#textarea1 {
+	width: 600px;
+	height:144px;
+	resize: none;
+	border-radius: 5px 5px;
+	background-color: #D6B4A7;
+	border: none;
+}
+
+#input2 {
+	width: 350px;
+	height: 70px;
+	border-radius: 5px 5px;
+	background-color: #D6B4A7;
+	border: none;
+}
+#input3 {
+	width: 350px;
+	height: 70px;
+	border-radius: 5px 5px;
+	background-color: #D6B4A7;
+	border: none;
+}
+#input4 {
+	width: 350px;
+	height: 70px;
+	border-radius: 5px 5px;
+	background-color: #D6B4A7;
+	border: none;
+}
+#textarea2 {
+	width: 350px;
+	height: 144px;
+	resize: none;
+	border-radius: 5px 5px;
+	background-color: #D6B4A7;
+	border: none;
+}
+
+label {
+	font-family: 'Imprima', sans-serif;
+	font-size: 25px;
+	color: black;
+}
+
+.form-group {
+	margin-top: 50px;
+	margin-bottom: 5px;
+}
+
+#input1::-webkit-input-placeholder {
+	color: #EFE4DF;
+	padding-left: 10px;
+	font-family: 'Imprima', sans-serif;
+	font-size: 25px;
+}
+
+#input2::-webkit-input-placeholder {
+	color: #EFE4DF;
+	padding-left: 10px;
+	font-family: 'Imprima', sans-serif;
+	font-size: 25px;
+}
+
+.divider {
+	border: 1px solid #E28787;
+	margin: 100px 40px;
+}
+
+.submitte1 {
+	width: 600px;
+	height: 70px;
+	background-color: #D6B4A7;
+	border: none;
+	font-family: 'Imprima', sans-serif;
+	font-size: 50px;
+}
+
+.submitte2 {
+	width: 350px;
+	height: 70px;
+	border-radius: 5px 5px;
+	font-family: 'Imprima', sans-serif;
+	font-size: 25px;
+	text-align: left;
+	font-style: none;
+}
+.submitte1 i {
+	font-size: 25px;
+	float: left;
+}
+
+.submitte2 i {
+	font-size: 25px;
+	float: left;
+}
+
+#coba1 {
+	background-color: #D6B4A7;
+	border: none;
+}
+
+#coba1:hover {
+	background-color: pink;
+	transition: 0.3s;
+}
+
+/* -- ORDER PAGE 2 --*/
+
+#pembayaran {
+	border-right: 1px solid #D6B4A7;
+	float: left;
+}
+
+#pembayaran img {
+	width: 254px;
+	height: 99px;
+	margin: 20px auto;
+}
+
+#pembayaran h1 {
+	font-family: 'Baloo 2', cursive;
+	font-size: 28px;
+}
+
+#pembayaran p {
+	font-family: 'Baloo 2', cursive;
+	font-size: 20px;
+}
+
+
+#tombol button { 
+	width: 319px;
+	height: 57px;
+	margin-top: 30px;
+	border-radius: 0px 0px;
+	font-family: 'Baloo 2', cursive;
+	font-weight: bold;
+	font-size: 26px;
+}
+
+#tombol1 {
+	background-color: #E28787;
+	border: none;
+}
+
+#tombol1:hover {
+	background-color: red;
+	transition: 0.2s;
+}
+
+#tombol2 {
+	background-color: #C4C4C4;
+	border: none;
+	margin-bottom: 30px;
+}
+
+
+/* -- sukses --*/
+
+#background-akhir {
+	background-color: white;
+}
+
+#background-akhir img {
+	border-radius: 500px 500px;
+	width: 500px;
+	height: 500px;
+}
+
+#background-akhir h1 {
+	font-family: 'Amiri', serif;
+	font-size: 45px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+
+}
+
+#jelek {
+	color: #C4C4C4;
+	font-size: 40px;
+}
+
+#background-akhir button {
+	width: 360px;
+	height: 64px;
+	font-size: 38px;
+	font-family: 'Amiri', serif;
+	margin-left: 13%;
+	background-color: #AA897D;
+	border: none;
+	border-radius: 0 0;
+	margin-bottom: 30px;
+}
